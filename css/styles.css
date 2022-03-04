@@ -68,6 +68,9 @@ section{
     padding: 9px;
     border: 0;
 }
+.button input:hover{
+    background-color: #1c83a5;
+}
 footer{
     background-color: #EEEEEE;
     align-items: center;
