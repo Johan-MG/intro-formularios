@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Shift + alt + 'a' -->
+    <!-- Agrega CSS al HTML -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/css/img/icon.png">
     <title>Sing up for Schoology account</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div>
-                <img src="https://educatingbilinguals.com/wp-content/uploads/2020/03/schoology-logo-nrml-dm.png" alt="Schoology logo" width=" 350px" height="100px">
+                <a href="http://www.schoology.com/" target="_blank">
+                    <img class="logo" src="css/img/logo.png" alt="Schoology logo">
+                </a>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main-page">
         <section>
-            <div id="Sign">
-                <div>
-                    <span>Sing up for Schoology</span>
-                </div>
-                <div>
-                    <a href="https://app.schoology.com/register.php" target="blank">Back</a>
-                </div>
+            <div class="title-form">
+                
+                <span>Sing up for Schoology</span>
+                <a href="https://app.schoology.com/register.php" target="blank">Back</a>
 
             </div>
-            <div>
-                <input type="text" name="Access code" id="" placeholder="Access Code">
+            <div class="input-text">
+                <input type="text" name="Access code" placeholder="Access Code">
             </div>
 
-            <div>
+            <div class="info">
                 <span>Enter the access code provided by your instructor</span>
             </div>
-            <div>
+            <div class="button">
                 <input type="submit" value="Continue">
             </div>
         </section>
